@@ -7,6 +7,7 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
+    "test": "jest",
     "upgrade:tamagui": "$npm_execpath up '*tamagui*' '@tamagui/*'"
   },
   "dependencies": {
@@ -43,7 +44,11 @@
     "@semantic-release/github": "8.0.6",
     "@semantic-release/npm": "9.0.1",
     "@semantic-release/release-notes-generator": "10.0.3",
+    "@sucrase/jest-plugin": "^3.0.0",
+    "@testing-library/react-native": "^12.3.0",
+    "@types/jest": "^29.5.4",
     "@types/react": "~18.2.14",
+    "@types/react-test-renderer": "^18.0.1",
     "@typescript-eslint/eslint-plugin": "^5.49.0",
     "@typescript-eslint/parser": "^5.49.0",
     "babel-plugin-transform-inline-environment-variables": "^0.4.4",
@@ -53,7 +58,11 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.32.1",
     "eslint-plugin-simple-import-sort": "^10.0.0",
+    "jest": "^29.7.0",
+    "jest-expo": "^49.0.0",
+    "jest-watch-typeahead": "^2.2.2",
     "prettier": "^2.8.3",
+    "react-test-renderer": "^18.2.0",
     "semantic-release": "19.0.5",
     "typescript": "^5.1.3"
   },
